@@ -1,7 +1,5 @@
 package com.pgx.java.web;
 
-
-
 import java.lang.reflect.Field;
 
 import javax.servlet.http.HttpServletRequest;

@@ -10,7 +10,8 @@ public class PushTimeService implements Runnable {
     public static void add(Session s) {
         sMap.put(s.getId(), s);
     }
-    
+ 
+ /**/   
     public static void initialize() {
         if (instance == null) {
             instance = new PushTimeService();
