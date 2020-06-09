@@ -11,7 +11,7 @@ public class PushTimeService implements Runnable {
         sMap.put(s.getId(), s);
     }
  
- /**/   
+ 
     public static void initialize() {
         if (instance == null) {
             instance = new PushTimeService();
